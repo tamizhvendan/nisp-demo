@@ -1,0 +1,10 @@
+## NISP - DEMO
+
+Steps to run
+
+```
+> git clone git@github.com:tamizhvendan/nisp-demo.git
+> cd nisp-demo
+> npm install
+> npm run start
+```
