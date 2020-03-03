@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/codemirror@5.41.0/lib/codemirror.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/codemirror@5.49.2/lib/codemirror.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/codemirror@5.49.2/mode/clojure/clojure.js"></script>
+  </head>
+<body>
+  <p>Job Type</p>
+  <select id="jobType">
+    <option value="Automation">Automation</option>
+    <option value="Maintenance">Maintenance</option>
+    <option value="Service">Service</option>
+    <option value="Quoted">Quoted</option>
+  </select>
+  <p>Job Number</p>
+  <input type="text" id="jobNumber" value="1000"/>
+  <p>Expression</p>
+  <textarea id="expr" rows="4" cols="50p"></textarea>
+</br>
+  <button id="compute">Compute</button>
+  <p>Customer Provided Job Number</p>
+  <input type="text" id="customerProvidedJobNumber" disabled value=""/>
+  <script src="src/evaluator.js"></script>
+</body>
+</html>
