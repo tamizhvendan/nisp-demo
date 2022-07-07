@@ -8,7 +8,7 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "moment": "2.24.0",
+    "moment": "2.29.4",
     "nisp": "0.13.8"
   },
   "devDependencies": {
